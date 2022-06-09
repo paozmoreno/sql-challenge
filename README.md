@@ -1,12 +1,13 @@
 # Employee Database: A Mystery in Two Parts
 
-##The Challenge
+## The Challenge
 This project uses data engineering and data modeling to build a SQL database of employees of a corporation called Pewlett Hackard from the 1980s through the 1990s. Employee data was previously contained within six CSV files. 
+![alt text](EmployeeSQL/employee_ERD.png)
 
-###Data Engineering
+### Data Engineering
 After inspecting the CSV files, an ERD of the tables was created using the QuickDBD website. Using this ERD, table schemas were created for each of the six CSV files. The CSV files were then imported into the corresponding SQL tables.
 
-###Data Analysis
+### Data Analysis
 The following data analysis was performed:
 
 List the following details of each employee: employee number, last name, first name, sex, and salary
